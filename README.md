@@ -41,6 +41,7 @@
 需要 Swift 6 和 macOS SDK（Xcode 或兼容的 Command Line Tools）。
 
 ```sh
+chmod +x build.sh scripts/package.sh
 ./build.sh                 # 默认生成 arm64 + x86_64 通用 app
 ./build.sh --native        # 仅编译当前机器架构，用于开发
 open Stilltime.app
